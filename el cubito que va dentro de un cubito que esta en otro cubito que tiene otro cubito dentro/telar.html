@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El cubito que va dentro de un cubito que esta en otro cubito que tiene otro cubito dentro</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+        }
+
+        .margin, .border, .padding, .content {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .margin {
+            background-color: #d35400;
+            padding: 50px 60px;
+        }
+
+        .border {
+            background-color: #e59866;
+            padding: 50px 90px;
+        }
+
+        .padding {
+            background-color: #3988bd;
+            padding: 40px 40px;
+        }
+
+        .content {
+            background-color: #a9cce3;
+            padding: 50px 100px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .margin::before,
+        .border::before,
+        .padding::before {
+            content: attr(class);
+            position: absolute;
+            top: 5px;
+            font-weight: bold;
+            font-size: 16px;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="margin">
+        <div class="border">
+            <div class="padding">
+                <div class="content">Content</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

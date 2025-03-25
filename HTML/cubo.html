@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubitos</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: lightgray;
+            overflow-y: auto;
+        }
+        .container {
+            width: 800px;
+            background-color: gray;
+            padding: 10px;
+        }
+        .header {
+            background-color: green;
+            height: 120px;
+            margin-bottom: 10px;
+        }
+        .content {
+            display: flex;
+        }
+        .sidebar {
+            background-color: blue;
+            width: 180px;
+            height: 300px;
+            margin-right: 10px;
+        }
+        .main {
+            background-color: red;
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+        .top-section {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 15px;
+            padding-left: 10px;
+        }
+        .box {
+            background-color: yellow;
+            width: 32%;
+            height: 150px;
+        }
+        .bottom-section {
+            background-color: purple;
+            height: 120px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="content">
+            <div class="sidebar"></div>
+            <div class="main">
+                <div class="top-section">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <div class="bottom-section"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
