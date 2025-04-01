@@ -5,19 +5,19 @@
     flex: 1;
     padding: 20px;
     margin: 10px;
-    background-color: magenta;
+    background-color: rgb(109, 172, 255);
 }
 
 .col2 {
     flex: 2;
     padding: 20px;
     margin: 10px;
-    background-color: magenta;
+    background-color: rgb(109, 172, 255);
 }
 
 .col3 {
     flex: 3;
     padding: 20px;
     margin: 10px;
-    background-color: magenta;
+    background-color: rgb(109, 172, 255);
 }
