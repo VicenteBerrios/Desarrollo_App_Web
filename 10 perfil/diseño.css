@@ -75,7 +75,7 @@ body {
 }
 
 /* Agrega el ícono de ubicación antes del texto */
-.contenido .location::before {
+.contenido .location::before {   /*:before es un pseudo-elemento que se utiliza para insertar contenido antes del contenido de un elemento seleccionado*/
     content: '📍'; /* Inserta el ícono de ubicación */
     margin-right: 5px; /* Espacio a la derecha del ícono */
 }
@@ -94,7 +94,7 @@ body {
 }
 
 /* Agrega el ícono de configuración antes del enlace */
-.ajustes a::before {
+.ajustes a::before {    /*:before es un pseudo-elemento que se utiliza para insertar contenido antes del contenido de un elemento seleccionado*/
     content: '⚙️ '; /* Inserta el ícono de ajustes */
     font-size: 18px; /* Tamaño de fuente del ícono */
 }
