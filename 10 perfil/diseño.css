@@ -62,7 +62,7 @@ body {
 /* Estilo para los párrafos del contenido */
 .contenido p {
     margin: 8px 0; /* Espaciado entre los párrafos */
-    color: #333; /* Color de texto gris oscuro */
+    color: gray; /* Color de texto gris oscuro */
     font-size: 18px; /* Tamaño de fuente mediano para los párrafos */
 }
 
@@ -71,7 +71,7 @@ body {
     display: flex; /* Usa flexbox para organizar la ubicación y el ícono */
     align-items: center; /* Alinea los elementos en el centro vertical */
     font-size: 16px; /* Tamaño de fuente pequeño para la ubicación */
-    color: #666; /* Color de texto gris más claro para la ubicación */
+    color: gray; /* Color de texto gris más claro para la ubicación */
 }
 
 /* Agrega el ícono de ubicación antes del texto */
