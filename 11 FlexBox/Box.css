@@ -16,7 +16,7 @@
     padding: 2rem 1rem;
   }
   
-  .container {
+  .caja {
     background-color: white;
     margin: 2rem auto;
     max-width: 1000px;
@@ -33,7 +33,7 @@
     margin-bottom: 1rem;
   }
   
-  .flex {
+  .botones {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -41,7 +41,7 @@
     gap: 1rem;
   }
   
-  .box {
+  .pestañas {
     background-color: #d35400;
     flex: 1 1 250px;
     padding: 1.5rem;
