@@ -22,7 +22,6 @@
     max-width: 1000px;
     border-radius: 10px;
     padding: 2rem;
-    box-shadow: 0 4px 10px black;
   }
   
   .inicio {
@@ -47,7 +46,6 @@
     padding: 1.5rem;
     border-radius: 6px;
     text-align: center;
-    box-shadow: 0 2px 6px black;
   }
   
   
