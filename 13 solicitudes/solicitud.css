@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .espacio {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+  }
+  
+  .cubos {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0px 4px 14px black;
+    width: 360px;
+  }
+  
+  .diseño {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .diseño h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .diseño a {
+    font-size: 15px;
+    color: #00aaff;
+    text-decoration: none;
+    border: 1.5px solid #00aaff;
+    border-radius: 8px;
+    padding: 6px 12px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .diseño a:hover {
+    background-color: #00aaff;
+    color: white;
+  }
+  
+  .usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+  }
+  
+  .nombres {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .perfil {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .nombres span {
+    font-size: 16px;
+  }
+  
+  .botones button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .botones img {
+    width: 30px;
+    height: 30px;
+  }
+  
