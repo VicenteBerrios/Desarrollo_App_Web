@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #2e255e;
+    background: white;
+  }
+  
+  .inicio {
+    display: flex;
+  }
+  
+  .barra {
+    width: 200px;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  
+  .barra h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .barra nav a {
+    display: block;
+    color: #2e255e;
+    text-decoration: none;
+    margin: 8px;
+  }
+  
+  .barra .opciones {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .orden {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .orden h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .orden h2 span {
+    color: #2e255e;
+    font-weight: 800;
+  }
+  
+  .nombres {
+    color: gray;
+    margin-bottom: 40px;
+  }
+  
+  .imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .imagen {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .imagen img {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .imagen h3 {
+    font-size: 32px;
+    margin: 10px 0 5px;
+  }
+  
+  .imagen p {
+    font-size: 14px;
+    color: gray;
+  }
+  
