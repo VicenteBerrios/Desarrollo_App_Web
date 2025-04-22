@@ -1,86 +1,103 @@
+/*Base del codigo*/
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    color: #2e255e;
-    background: white;
-  }
-  
-  .inicio {
-    display: flex;
-  }
-  
-  .barra {
-    width: 200px;
-    padding: 20px;
-    background-color: whitesmoke;
-  }
-  
-  .barra h1 {
-    margin-bottom: 30px;
-    font-size: 24px;
-  }
-  
-  .barra nav a {
-    display: block;
-    color: #2e255e;
-    text-decoration: none;
-    margin: 8px;
-  }
-  
-  .barra .opciones {
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 12px;
-    color: gray;
-  }
-  
-  .orden {
-    flex: 1;
-    padding: 40px;
-    text-align: center;
-  }
-  
-  .orden h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .orden h2 span {
-    color: #2e255e;
-    font-weight: 800;
-  }
-  
-  .nombres {
-    color: gray;
-    margin-bottom: 40px;
-  }
-  
-  .imagenes {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-  }
-  
-  .imagen {
-    width: 200px;
-    text-align: center;
-  }
-  
-  .imagen img {
-    width: 100%;
-    background-color: whitesmoke;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .imagen h3 {
-    font-size: 32px;
-    margin: 10px 0 5px;
-  }
-  
-  .imagen p {
-    font-size: 14px;
-    color: gray;
-  }
-  
+  margin: 0; 
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e255e; 
+  background: white;
+  font-size: 20px;
+}
+
+/*Flexbox para ordenar el contenido dentro de la fila*/
+.inicio {
+  display: flex;
+}
+
+/*Barra del menu*/
+.barra {
+  width: 280px;
+  padding: 30px;
+  background-color: white;
+}
+
+/*Titulo dentro de la barra*/
+.barra h1 {
+  margin-bottom: 40px; 
+  font-size: 32px;
+}
+
+/*Enlaces del navegador*/
+.barra nav a {
+  display: block;
+  color: #2e255e; 
+  text-decoration: none;
+  margin: 12px;
+  font-size: 22px; 
+}
+
+/*Diseño de las letras dentro de la barra*/
+.barra .opciones {
+  margin-top: 30px;
+  font-weight: bold; 
+  font-size: 16px;
+  color: gray;
+}
+
+/*Contenido principal de la pagina*/
+.orden {
+  flex: 1; 
+  padding: 60px;
+  text-align: center;
+}
+
+/*Titulo principal de la seccion de contenido*/
+.orden h2 {
+  font-size: 48px; 
+  margin-bottom: 20px;
+}
+
+.orden h2 span {
+  color: #2e255e; 
+  font-weight: 800; 
+}
+/*cambia el color y ordena las letras debajo de Let’s Work Together!*/
+.nombres {
+  color: gray;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+/*Ordena las imagenes*/
+.imagenes {
+  display: flex;
+  justify-content: center; 
+  gap: 40px; 
+  flex-wrap: wrap; 
+  margin-top: 130px;
+}
+
+/*Cada tarjeta de imagen individual*/
+.imagen {
+  width: 280px;
+  text-align: left; 
+}
+
+/*Imagen dentro de la tarjeta*/
+.imagen img {
+  width: 100%;
+  padding: 15px; 
+  border-radius: 12px; 
+  background-color: white;
+}
+
+/*Tamaño del numero debajo de cada imagen*/
+.imagen h3 {
+  font-size: 50px; 
+  margin: 16px 0 8px;
+}
+
+/*Da el diseño de las letras debajo de su respectivo numero*/
+.imagen p {
+  font-size: 22px;
+  color: gray;
+  margin: 0;
+}
