@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f5f7;
+  color: #333;
+}
+
+.navegador {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titular {
+  font-size: 28px;
+}
+
+.opciones {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.opciones a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.opciones .active {
+  text-decoration: underline;
+}
+
+.cerrar {
+  background-color: #00aaff;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contenedor-principal {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.perfil {
+  background-color: white;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 4px 14px rgb(163, 163, 163);
+  overflow: hidden;
+  text-align: center;
+}
+
+.perfil-cabecera {
+  background-color: #0097e6;
+  height: 120px;
+}
+
+.imagen-perfil {
+  margin-top: -60px;
+}
+
+.imagen-perfil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
+.info-perfil {
+  padding: 20px;
+}
+
+.info-perfil h2 {
+  margin-bottom: 5px;
+}
+
+.ubicacion {
+  color: #aaa;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.editar {
+  margin-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.panel-lateral {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.panel {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 4px 14px rgb(163, 163, 163);
+}
+
+.panel h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.ver-todas {
+  background: none;
+  border: 1px solid #0d99ff;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #0d99ff;
+  cursor: pointer;
+}
+
+.solicitud, .conexion {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.solicitud img, .conexion img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.acciones {
+  margin-left: auto;
+  display: flex;
+  gap: 6px;
+}
+
+.acciones button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.acciones img {
+  width: 22px;
+  height: 22px;
+}
+
+
+
+

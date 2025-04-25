@@ -1,100 +1,87 @@
-/* Estilo global para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif; /* Establece la fuente de la página */
-    background-color: white; /* Color de fondo blanco */
-    display: flex; /* Usa el modelo de flexbox para alinear los elementos */
-    justify-content: center; /* Centra los elementos en el eje horizontal */
-    align-items: center; /* Centra los elementos en el eje vertical */
-    height: 100vh; /* Hace que el cuerpo ocupe toda la altura de la ventana */
-    margin: 0; /* Elimina el margen por defecto del navegador */
+    font-family: Arial, sans-serif;
+    background-color: white; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
 }
 
-/* Estilo para la tarjeta del perfil */
 .base {
-    width: 800px; /* Define un ancho para la tarjeta */
-    background: white; /* Fondo blanco para la tarjeta */
-    overflow: hidden; /* Oculta cualquier contenido que se desborde */
-    border: 1px solid #ccc; /* Borde suave de color gris claro */
-    padding-bottom: 40px; /* Espacio adicional en la parte inferior */
+    width: 800px;
+    background: white;
+    overflow: hidden; 
+    border: 1px solid #ccc; 
+    padding-bottom: 40px; 
 }
 
-/* Estilo para la parte superior de la tarjeta (cabeza del perfil) */
 .cabeza {
-    background-color: #0097A7; /* Color de fondo azul */
-    height: 120px; /* Altura fija de 120px */
+    background-color: #0097A7; 
+    height: 120px; 
 }
 
-/* Estilo para la imagen del perfil */
 .imagen {
-    width: 150px; /* Define un ancho de 150px para la imagen */
-    height: 150px; /* Define una altura de 150px para la imagen */
-    background: white; /* Fondo blanco detrás de la imagen */
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    margin: -75px 20px 15px 20px; /* Ajusta el margen para mover la imagen hacia la izquierda */
-    display: flex; /* Usa flexbox para centrar la imagen dentro del contenedor */
-    justify-content: center; /* Centra la imagen en el eje horizontal */
-    align-items: center; /* Centra la imagen en el eje vertical */
-    border: 6px solid white; /* Borde blanco alrededor de la imagen */
+    width: 150px; 
+    height: 150px; 
+    background: white;
+    border-radius: 50%; 
+    margin: -75px 20px 15px 20px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 6px solid white; 
 }
 
-/* Estilo de la imagen dentro del contenedor */
 .imagen img {
-    width: 155px; /* Ajusta el tamaño de la imagen dentro del contenedor */
-    height: 155px; /* Ajusta el tamaño de la imagen dentro del contenedor */
-    border-radius: 50%; /* Asegura que la imagen también sea circular */
-    object-fit: cover; /* Asegura que la imagen se recorte y se ajuste correctamente */
+    width: 155px; 
+    height: 155px; 
+    border-radius: 50%; 
+    object-fit: cover; 
 }
 
-/* Estilo para el contenido principal del perfil */
 .contenido {
-    padding: 0 40px; /* Espaciado a los lados del contenido */
-    text-align: left; /* Alinea el texto a la izquierda */
-    display: flex; /* Usa flexbox para organizar los elementos dentro del contenedor */
-    flex-direction: column; /* Organiza los elementos de arriba hacia abajo */
+    padding: 0 40px; 
+    text-align: left; 
+    display: flex; 
+    flex-direction: column; 
 }
 
-/* Estilo para el nombre del perfil */
 .contenido h2 {
-    margin: 10px 0 5px; /* Espaciado alrededor del nombre */
-    font-size: 28px; /* Tamaño de fuente grande para el nombre */
+    margin: 10px 0 5px; 
+    font-size: 28px; 
 }
 
-/* Estilo para los párrafos del contenido */
 .contenido p {
-    margin: 8px 0; /* Espaciado entre los párrafos */
-    color: gray; /* Color de texto gris oscuro */
-    font-size: 18px; /* Tamaño de fuente mediano para los párrafos */
+    margin: 8px 0;
+    color: gray;
+    font-size: 18px; 
 }
 
-/* Estilo para la ubicación */
 .contenido .location {
-    display: flex; /* Usa flexbox para organizar la ubicación y el ícono */
-    align-items: center; /* Alinea los elementos en el centro vertical */
-    font-size: 16px; /* Tamaño de fuente pequeño para la ubicación */
-    color: gray; /* Color de texto gris más claro para la ubicación */
+    display: flex; 
+    align-items: center;
+    font-size: 16px;
+    color: gray; 
 }
 
-/* Agrega el ícono de ubicación antes del texto */
-.contenido .location::before {   /*:before es un pseudo-elemento que se utiliza para insertar contenido antes del contenido de un elemento seleccionado*/
-    content: '📍'; /* Inserta el ícono de ubicación */
-    margin-right: 5px; /* Espacio a la derecha del ícono */
+.contenido .location::before {  
+    content: '📍'; 
+    margin-right: 5px; 
 }
 
-/* Estilo para el enlace de ajustes de perfil */
 .ajustes {
-    margin-top: 15px; /* Espacio superior para separar del contenido anterior */
+    margin-top: 15px; 
 }
 
-/* Estilo para el enlace de "editar perfil" */
 .ajustes a {
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    color: #007bff; /* Color azul para el enlace */
-    font-size: 18px; /* Tamaño de fuente mediano para el enlace */
-    font-weight: bold; /* Hace el texto en negrita */
+    text-decoration: none; 
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold; 
 }
 
-/* Agrega el ícono de configuración antes del enlace */
-.ajustes a::before {    /*:before es un pseudo-elemento que se utiliza para insertar contenido antes del contenido de un elemento seleccionado*/
-    content: '⚙️ '; /* Inserta el ícono de ajustes */
-    font-size: 18px; /* Tamaño de fuente del ícono */
+.ajustes a::before {   
+    content: '⚙️ '; 
+    font-size: 18px; 
 }

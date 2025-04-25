@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Perfil Jane Doe</title>
+    <link rel="stylesheet" href="curso.css" />
+</head>
+<body>
+    <nav class="navegador">
+        <h1 class="titular">Perfil</h1>
+        <ul class="opciones">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#" class="active">Mi perfil</a></li>
+            <li><a href="#">Conexiones</a></li>
+            <li><button class="cerrar">Cerrar sesión</button></li>
+        </ul>
+    </nav>
+
+    <main class="contenedor-principal">
+        <section class="perfil">
+            <div class="perfil-cabecera"></div>
+            <div class="imagen-perfil">
+                <img src="jadedoe.jpg" alt="Jane Doe">
+            </div>
+            <div class="info-perfil">
+                <h2>Jane Doe</h2>
+                <p class="ubicacion">Bergen, Noruega</p>
+                <p>Desarrolladora Frontend</p>
+                <p>Conocimientos en HTML, CSS, JavaScript</p>
+                <a href="#" class="editar">⚙️ Editar perfil</a>
+            </div>
+        </section>
+
+        <aside class="panel-lateral">
+            <div class="panel">
+                <h3>Solicitudes de conexión <button class="ver-todas">Ver todas</button></h3>
+                <div class="solicitud">
+                    <img src="user-icon.png" alt="">
+                    <span>Steve Jobs</span>
+                    <div class="acciones">
+                        <button><img src="check-icon.png" alt=""></button>
+                        <button><img src="delete-1-icon.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="solicitud">
+                    <img src="user-icon.png" alt="">
+                    <span>Bill Gates</span>
+                    <div class="acciones">
+                        <button><img src="check-icon.png" alt=""></button>
+                        <button><img src="delete-1-icon.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h3>Tus conexiones <button class="ver-todas">Ver todas</button></h3>
+                <div class="conexion"><img src="user-icon.png" alt=""><span>Richard Stallman</span></div>
+                <div class="conexion"><img src="user-icon.png" alt=""><span>Linus Torvalds</span></div>
+                <div class="conexion"><img src="user-icon.png" alt=""><span>Ada Lovelace</span></div>
+                <div class="conexion"><img src="user-icon.png" alt=""><span>Grace Hopper</span></div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
+
+
