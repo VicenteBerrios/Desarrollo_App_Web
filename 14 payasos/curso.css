@@ -61,7 +61,7 @@ body {
 .perfil {
   background-color: white;
   border-radius: 12px;
-  width: 400px;
+  width: 650px; 
   box-shadow: 0 4px 14px rgb(163, 163, 163);
   overflow: hidden;
   text-align: center;
@@ -77,16 +77,17 @@ body {
 }
 
 .imagen-perfil img {
-  width: 120px;
-  height: 120px;
+  width: 160px; 
+  height: 160px;
   border-radius: 50%;
   border: 5px solid white;
   object-fit: cover;
 }
 
 .info-perfil {
-  padding: 20px;
+  padding: 24px; 
 }
+
 
 .info-perfil h2 {
   margin-bottom: 5px;
