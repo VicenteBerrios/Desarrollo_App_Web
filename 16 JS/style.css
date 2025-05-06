@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: magenta;
+    color: black;
+    padding: 20px;
+}
