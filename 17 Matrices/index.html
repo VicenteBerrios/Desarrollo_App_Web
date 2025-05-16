@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Días de la semana - versión alternativa</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Operaciones con Arreglos</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <p>Días de la semana desde un arreglo</p>
-        <button id="btnMostrarDia">Mostrar Día</button>
-    </div>
-    <script src="script.js"></script>
+
+  <h1>Operaciones con Arreglos en JavaScript</h1>
+
+  <div class="base">
+    <p>Promedio de los 3 primeros elementos de un arreglo</p>
+    <button onclick="promedioTresPrimeros()">Calcular Promedio</button>
+  </div>
+
+  <div class="base">
+    <p>Suma entre el primer y último elemento de un arreglo</p>
+    <button onclick="sumaExtremos()">Sumar Extremos</button>
+  </div>
+
+  <div class="base">
+    <p>Diferencia entre el elemento central y los extremos</p>
+    <button onclick="diferenciaCentroExtremos()">Calcular Diferencia</button>
+  </div>
+
+  <div class="base">
+    <p>Multiplicacion de elementos en posiciones pares</p>
+    <button onclick="multiplicaPares()">Multiplicar Pares</button>
+  </div>
+
+  <div class="base">
+    <p>Concatenacion de mensaje con operacion</p>
+    <button onclick="mensajeSuma()">Mostrar Mensaje</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
