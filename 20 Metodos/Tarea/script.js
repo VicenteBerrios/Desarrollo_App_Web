@@ -60,7 +60,7 @@ let cola = ["Cliente1", "Cliente2", "Cliente3"];
 function actualizarCola() {
     cola.shift();
     cola.push("Cliente4");
-    console.log("Ejercicio 8:", cola);
+    alert("Ejercicio 8:" + cola);
 }
 
 // Ejercicio 9
@@ -69,7 +69,7 @@ function cambiarNombres() {
     nombres.pop();
     nombres.unshift("Mateo");
     nombres.push("Ana");
-    console.log("Ejercicio 9:", nombres);
+    console.log("Ejercicio 9:" + nombres);
 }
 
 // Ejercicio 10
@@ -95,7 +95,7 @@ let dias = ["lunes", "miércoles", "jueves"];
 function agregarDiasSemana() {
     dias.splice(1, 0, "martes");
     dias.push("viernes");
-    console.log("Ejercicio 11:", dias);
+    console.log("Ejercicio 11:" + dias);
 }
 
 // Ejercicio 12
@@ -106,14 +106,14 @@ function actualizarPersonas() {
     personas.shift();
     personas.unshift("Pedro");
     personas.push("Camila");
-    console.log("Ejercicio 12:", personas);
+    console.log("Ejercicio 12:" + personas);
 }
 
 // Ejercicio 13
 let tareas = ["comer", "estudiar", "dormir", "jugar", "ver TV", "navegar"];
 function reemplazarTareas() {
     tareas.splice(2, 4, "lavar la ropa", "organizar escritorio");
-    console.log("Ejercicio 13:", tareas);
+    console.log("Ejercicio 13:" + tareas);
 }
 
 
