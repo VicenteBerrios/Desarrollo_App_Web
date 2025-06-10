@@ -6,15 +6,15 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(228, 162, 210);
     color: rgb(53, 53, 53);
 }
 
 .nav {
     display: flex;
     width: 100%;
-    color: white;
-    background: linear-gradient(90deg, #ff9eb5, #ff74a4);
+    color: black;
+    background: linear-gradient(90deg, rgb(206, 6, 206), #f70c5e);
     padding: 15px 0;
     justify-content: center;
     font-size: 1.5rem;
