@@ -50,3 +50,16 @@ body {
     box-shadow: 0 6px 12px magenta;
 }
 
+.resultado {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px solid #e91e63;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px magenta;
+    font-size: 1.1rem;
+    min-height: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
