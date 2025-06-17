@@ -37,7 +37,7 @@ function mostrar(titulo, contenido) {
   
   // Ejercicio 4
   function ejercicio4() {
-    let n = parseInt(prompt("Ingresa un numero:"));
+    let n = parseInt(prompt("Ingresa un numero: "));
     let salida = "";
     if (isNaN(n)) {
       salida = "Entrada no valida.";
@@ -55,7 +55,7 @@ function mostrar(titulo, contenido) {
   // Ejercicio 5
   function ejercicio5() {
     let n = parseInt(prompt("Numero para la tabla:"));
-    if (isNaN(n)) return mostrar("Ejercicio 5", "Entrada no valida.");
+    if (isNaN(n)) return mostrar("Ejercicio 5", "Entrada no valida");
     let salida = "";
     for (let i = 1; i <= 10; i++) {
       salida += `${n} x ${i} = ${n * i}\n`;
@@ -67,7 +67,7 @@ function mostrar(titulo, contenido) {
   function ejercicio6() {
     let suma = 0, num;
     while (true) {
-      num = parseFloat(prompt("Ingresa un numero (0 para terminar):"));
+      num = parseFloat(prompt("Ingresa un numero: "));
       if (isNaN(num)) continue;
       if (num === 0) break;
       suma += num;
@@ -78,7 +78,7 @@ function mostrar(titulo, contenido) {
   // Ejercicio 7
   function ejercicio7() {
     let palabra = prompt("Ingresa una palabra:");
-    if (!palabra) return mostrar("Ejercicio 7", "Entrada vacia.");
+    if (!palabra) return mostrar("Ejercicio 7", "Entrada vacia");
     let salida = "";
     for (let letra of palabra) salida += letra + "\n";
     mostrar("Ejercicio 7", salida);
