@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funciones - Parametros</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="nav">
-        <h1>Funciones con Parametros</h1>
+        <h1>Funciones con parametros</h1>
     </header>
+
     <main class="container">
-        <p>Selecciona una opcion</p>
-        <button class="btn" onclick="ejecutarEjercicio()">Ejecutar ejercicio</button>
-        <div id="resultado"></div>
+
+        <p>Ejercicio 1: Repetir palabra N veces</p>
+        <input type="text" id="input1" placeholder="Ingresar una palabra" class="input">
+        <button class="btn" onclick="mostrarPalabras()">Ejecutar</button>
+        <div id="resultado1"></div>
+        <hr>
+
+        <p>Ejercicio 2: Comparar dos numeros</p>
+        <input type="number" id="num1" placeholder="Numero 1" class="input">
+        <input type="number" id="num2" placeholder="Numero 2" class="input">
+        <button class="btn" onclick="sumarNumeros()">Comparar</button>
+        <div id="resultado2"></div>
+        <hr>
+
+        <p>Ejercicio 3: Verificar si es par o impar</p>
+        <input type="number" id="input3" placeholder="Numero a verificar" class="input">
+        <button class="btn" onclick="pares()">Verificar</button>
+        <div id="resultado3"></div>
+        <hr>
+
+        <p>Ejercicio 4: Verificar si es primo</p>
+        <input type="number" id="input4" placeholder="Numero a verificar" class="input">
+        <button class="btn" onclick="contadorRegresivo()">Verificar</button>
+        <div id="resultado4"></div>
+        <hr>
+
+        <p>Ejercicio 5: Potencia</p>
+        <input type="number" id="base" placeholder="Base" class="input">
+        <input type="number" id="exponente" placeholder="Exponente" class="input">
+        <button class="btn" onclick="mostrarTablaMultiplicar()">Calcular</button>
+        <div id="resultado5"></div>
+
     </main>
+
     <script src="script.js"></script>
 </body>
+
 </html>
+
