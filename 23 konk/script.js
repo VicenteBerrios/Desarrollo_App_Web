@@ -2,20 +2,20 @@
 function repetirPalabra(palabra, veces){
     let resultado = "";
     for(let i = 0; i < veces; i++){
-        resultado += `${palabra} `//  'hola hola hola hola '
+        resultado += `${palabra} ` // 'hola hola hola hola '
     }
     return resultado.trim(); // trim elimina espacios 'hola hola hola hola'
     // en los extremos
 }
 
 function mostrarPalabras(){
-let input1 = document.getElementById("input1");
-let palabra = input1.value;
-let numero = parseInt(prompt("Ingrese cantidad a repetir"));
+    let input1 = document.getElementById("input1");
+    let palabra = input1.value;
+    let numero = parseInt(prompt("Ingrese cantidad a repetir"));
 
-let resultadoFinal = repetirPalabra(palabra, numero);
+    let resultadoFinal = repetirPalabra(palabra, numero);
 
-document.getElementById("resultado1").textContent = resultadoFinal;
+    document.getElementById("resultado1").textContent = resultadoFinal;
 }
 
 // Ejercicio 2
@@ -53,7 +53,6 @@ function pares() {
     document.getElementById("resultado3").textContent = resultado;
 }
 
-
 // Ejercicio 4
 function esPrimo(n) {
     if (n <= 1) return `El numero ${n} no es primo.`;
@@ -71,7 +70,6 @@ function contadorRegresivo() {
     let resultado = esPrimo(numero);
     document.getElementById("resultado4").textContent = resultado;
 }
-
 
 // Ejercicio 5
 function calcularPotencia(base, exponente) {
