@@ -1,0 +1,54 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', Cambria, Cochin, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(228, 162, 210);
+    color: rgb(53, 53, 53);
+    padding-top: 60px;
+    text-align: center;
+    max-width: 600px;   
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 2px solid #e91e63;
+    outline: none;
+    width: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #e91e63;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px magenta;
+}
+
+button:hover {
+    background-color: #d81b60;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px magenta;
+}
+
+#resultado {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
