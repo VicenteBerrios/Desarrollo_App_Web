@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad DOOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Actividad DOOM</h1>
+
+
+
+  <section>
+    <h2>Ejercicio 1</h2>
+    <form id="formRegistroEstudiante">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required minlength="2">
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="14" max="100" required>
+
+      <label for="curso">Curso:</label>
+      <select id="curso" name="curso" required>
+        <option value="">Seleccione</option>
+        <option value="3 Medio">3 Medio</option>
+        <option value="4 Medio">4 Medio</option>
+      </select>
+
+      <fieldset>
+        <legend>Jornada:</legend>
+        <label><input type="radio" name="jornada" value="Manana"> Mañana</label>
+        <label><input type="radio" name="jornada" value="Tarde"> Tarde</label>
+      </fieldset>
+
+      <label>
+        <input type="checkbox" id="aceptaReglamento" required>
+        Acepto el reglamento
+      </label>
+
+      <button type="submit">Enviar</button>
+      <button type="reset" id="limpiarRegistro">Borrar</button>
+    </form>
+    <p class="resultado" aria-live="polite"></p>
+    <p class="error" aria-live="polite"></p>
+  </section>
+
+
+
+  <section>
+    <h2>Ejercicio 2</h2>
+    <form id="formNotas">
+      <label for="nota">Agregar nota (1.0 – 7.0):</label>
+      <input type="number" id="nota" step="0.1" min="1" max="7">
+
+      <button type="button" id="agregarNota">Agregar nota</button>
+      <button type="button" id="calcularPromedio">Calcular promedio</button>
+      <button type="button" id="limpiarNotas">Eliminar notas</button>
+    </form>
+    <p class="resultado" aria-live="polite"></p>
+    <p class="error" aria-live="polite"></p>
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
